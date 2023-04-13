@@ -26,7 +26,7 @@ async function createCar(
   year: number,
   color: string
 ) {
-  prisma.jobs.create({
+  prisma.cars.create({
     data: {
       model: model,
       licensePlate: licensePlate,
